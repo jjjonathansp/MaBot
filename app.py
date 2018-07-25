@@ -10,7 +10,7 @@ import random
 
 
 
-TOKEN = '597540172:AAGE0kn1ZhNPTsaZRRIdI9imAfGmw1jf9t4' # Nuestro tokken del bot (el que @BotFather nos dió).
+TOKEN = '597540172:AAFiMDuQVG60AjB_EJvRnv2HWeznopqhZos' # Nuestro tokken del bot (el que @BotFather nos dió).
 bot = telebot.TeleBot(TOKEN) # Creamos el objeto de nuestro bot.
 #############################################
 #Listener
