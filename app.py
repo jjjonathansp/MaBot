@@ -42,7 +42,7 @@ def command_money(m):
     try:
 	    bot.send_video( cid, open('gifs/imanol.mp4', 'rb'))
     except Exception as e:
-	    bot.send_message( cid, 'Pidiendo prestamo a Imanol...')
+	    bot.send_message( cid, 'Pidiendo prestamo a Imanol OMG...')
 
 @bot.message_handler(commands=['imanol']) 
 def command_soydios(m):
