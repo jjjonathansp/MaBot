@@ -69,7 +69,7 @@ def command_rayao(m):
     try:
         bot.send_video( cid, open('gifs/rayao.mp4', 'rb'))
     except Exception as e:
-		bot.send_message( cid, 'La he liao gente!')
+	    bot.send_message( cid, 'La he liao gente!')
 
 @bot.message_handler(commands=['galder'])
 def command_galder(m):
