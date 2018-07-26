@@ -112,7 +112,7 @@ def command_gay(m):
 @bot.message_handler(commands=['subnormal'])
 def command_subnormal(m):
     cid = m.chat.id
-    bot.send_voice( cid, open( 'sonidos/subnormal.ogg', 'rb'))
+    bot.send_voice( cid, open( 'sonidos/subnormal.mp3', 'rb'))
 
 
 @bot.message_handler(commands=['roto'])
